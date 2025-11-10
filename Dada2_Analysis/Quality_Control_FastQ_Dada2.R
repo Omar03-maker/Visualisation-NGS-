@@ -13,7 +13,7 @@ library(dplyr)
 library(fastqcr)
 
 # DÉFINIR LE CHEMIN DES DONNÉES
-path <- "C:/Users/USER/Documents/DIC_G2B/DIC2/DIC2_G2B_2025/VISULAISATION_NGS/miseqsopdata/MiSeq_SOP"
+path <- "Chemin vers /miseqsopdata"
 list.files(path)
 
 # RÉCUPÉRER LES FICHIERS R1 ET R2 SÉPARÉMENT
