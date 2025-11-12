@@ -7,12 +7,13 @@ Ce repository contient un pipeline complet pour l'analyse et la visualisation de
 - Analyser la diversité microbienne 
 - Créer des visualisations claires 
 ## ✨ Fonctionnalités Principales
-✅ Pipeline DADA2 complet (filtrage → débruitage → chimères)
-✅ Contrôle qualité à chaque étape
-✅ Assignation taxonomique automatique
-✅ Analyse de diversité alpha (Shannon, Simpson, Chao1)
-✅ Analyse de diversité beta (PCoA, NMDS)
-✅ Visualisations : barplots, heatmaps, etc
+- Pipeline DADA2 complet (filtrage → débruitage → chimères)
+- Contrôle qualité à chaque étape
+- Assignation taxonomique automatique
+- Analyse de diversité alpha (Shannon, Simpson, Chao1)
+- Analyse de diversité beta (PCoA, NMDS)
+- Visualisations : barplots, heatmaps, etc
 ## 👤 Auteur
 - El Hadji Omar Dia
 - GitHub: @Omar03-maker
+# ⭐ N'oubliez pas donner une étoile au repo ! 
