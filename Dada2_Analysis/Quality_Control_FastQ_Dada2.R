@@ -17,7 +17,7 @@ path <- "Chemin vers /miseqsopdata"
 list.files(path)
 
 # RÉCUPÉRER LES FICHIERS R1 ET R2 SÉPARÉMENT
-# Les fichiers dans le dossiers miseqsopdata sont des exemples R1_001.fastq (Reads F) et R2_001.fastq (Reads R) : 
+# Les fichiers dans le dossier miseqsopdata sont des exemples R1_001.fastq (Reads F) et R2_001.fastq (Reads R) : 
 fnFs <- sort(list.files(path, pattern="_R1_001.fastq", full.names = TRUE))
 fnRs <- sort(list.files(path, pattern="_R2_001.fastq", full.names = TRUE))
 
@@ -150,10 +150,10 @@ head(track)
 
 # ATTRIBUTION DE TAXONOMIE
 taxa <- assignTaxonomy(seqtab.nochim,
-                       "C:/Users/elhad/Documents/El_Hadji_Omar/DIC_G2B/DIC2/ANALYSE_NGS/miseqsopdata/MiSeq_SOP/silva_nr_v128_train_set.fa.gz", 
+                       "Chemin vers /silva_nr_v128_train_set.fa.gz", 
                        multithread=TRUE)
 taxa <- addSpecies(taxa,
-                   "C:/Users/elhad/Documents/El_Hadji_Omar/DIC_G2B/DIC2/ANALYSE_NGS/miseqsopdata/MiSeq_SOP/silva_species_assignment_v128.fa.gz")
+                   "Chemin vers /silva_species_assignment_v128.fa.gz")
 
 # ÉVALUATION DE LA PRÉCISION
 unqs.mock <- seqtab.nochim["Mock",]
