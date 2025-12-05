@@ -17,6 +17,9 @@ path <- "Chemin vers /miseqsopdata"
 list.files(path)
 
 # RÉCUPÉRER LES FICHIERS R1 ET R2 SÉPARÉMENT
+# Les fichiers dans le dossiers miseqsopdata sont des exemples : 
+## - Reads forwards : F_filt.fastq.gz
+## - Reads Reverse : R_filt.fastq.gz
 fnFs <- sort(list.files(path, pattern="_R1_001.fastq", full.names = TRUE))
 fnRs <- sort(list.files(path, pattern="_R2_001.fastq", full.names = TRUE))
 
@@ -36,7 +39,7 @@ add_quality_zones <- function(p) {
     geom_hline(yintercept = 20, linetype = "dashed", color = "red", alpha = 0.7) +
     geom_hline(yintercept = 28, linetype = "dashed", color = "orange", alpha = 0.7) +
     ylim(0, 42) +
-    # Points invisibles pour la légende
+   
     geom_point(aes(x = -Inf, y = -Inf, color = "Bonne qualité"), alpha = 0) +
     geom_point(aes(x = -Inf, y = -Inf, color = "Qualité raisonnable"), alpha = 0) +
     geom_point(aes(x = -Inf, y = -Inf, color = "Mauvaise qualité"), alpha = 0) +
