@@ -22,7 +22,7 @@ Le package phyloseq permet l'analyse et la visualisation de la diversité microb
 - Table_OTU : Contient les échantillons codé en format OTU
 - Taxonomy_Table : Classification taxonomique des OTUs
 - Table_Sample : Contient les métadonnées des échantillons
-## Utilsation de vos propres fichiers : Vous pouvez utiliser les fichiers correspondant a votre analyse NGS et remplacer dans les dossiers correspondant     
+## 📄 NOTES IMPORTANTES : Vous pouvez utiliser les fichiers correspondant a votre analyse NGS et remplacer dans les dossiers correspondant     
 
 ## 🚀 Utilisation de la pipeline
 ### Partie 1 : Traitement de donnnées avec DADA2
