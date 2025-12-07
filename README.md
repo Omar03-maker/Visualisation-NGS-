@@ -54,9 +54,4 @@ Que vous soyez débutant ou expert en bioinformatique, les scripts sont comment�
 - El Hadji Omar Dia
 - GitHub: @Omar03-maker
 
-## 📄 Citation : 
-Si vous utilisez cette pipeline dans vos travaux, veuiller citer :
-- Pour DADA2 : Callahan BJ, McMurdie PJ, Rosen MJ, Han AW, Johnson AJA, Holmes SP (2016). DADA2: High-resolution sample inference from Illumina amplicon data. Nature Methods 13:581-583.
-- Pour Phyloseq : McMurdie PJ, Holmes S (2013). phyloseq: An R package for reproducible interactive analysis and graphics of microbiome census data. PLOS ONE 8(4):e61217. 
-
 # ⭐ Si cela vous a été utile n'oubliez pas donner une étoile au repo ! 
