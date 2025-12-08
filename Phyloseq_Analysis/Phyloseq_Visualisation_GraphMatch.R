@@ -1,4 +1,4 @@
-t# Package prérequis
+# Package prérequis
 if (!require("phyloseq")) install.packages("phyloseq")
 if (!require("readxl")) install.packages("readxl")
 if (!require("ggplot2")) install.packages("ggplot2")
